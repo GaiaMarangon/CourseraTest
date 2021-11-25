@@ -1,0 +1,86 @@
+
+/*General*/
+* {
+	box-sizing:border-box;
+	margin: 0;
+	font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background-color: #A3E4D7;
+}
+
+header {
+	font-size: 175%;
+    text-align: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+#container {
+	margin: 0% 2% 0% 2%;
+}
+
+div > div {
+    background-color: #16A085;
+    border: 1px solid black; /*#0B5345;*/
+	margin: 1% 1% 1% 1%;
+}
+
+.blockTitle {
+	float: right;
+	border: 1px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	font-size: 125%;
+}
+
+#title1 {
+    background-color:#F7DC6F;
+	/*border-color:#F1C40F;*/
+}
+
+#title2 {
+    background-color:#F0B27A;
+	/*border-color:#E67E22;*/
+}
+#title3 {
+    background-color:#D98880;
+	/*border-color:#C0392B;*/
+}
+
+
+.blockContent {
+	clear: both;
+	padding: 10px;
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+    .lg_col4 {
+        width: 31.3%;
+		float: left;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.md_col6 {
+        width: 48%;
+		float: left;
+    }
+	.md_col12 {
+        width: 98%;
+		float: left;
+    }
+}
+
+
+/*Mobile*/
+@media (max-width: 767px) {
+	.md_col12 {
+        width: 98%;
+		float: left;
+    }
+}
