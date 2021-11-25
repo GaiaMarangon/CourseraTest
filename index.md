@@ -4,7 +4,7 @@
 Here are uploaded all the assignments from Coursera - "HTML, CSS, and Javascript for Web Developers" ([Link to github.io page](https://gaiamarangon.github.io/CourseraTest/))
 - Module2 assignment is in folder "week2_assignment" ([link to final coding assignment page](https://gaiamarangon.github.io/CourseraTest/week2_assignment/) )
 
----
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/GaiaMarangon/CourseraTest/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
