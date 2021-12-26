@@ -1,0 +1,628 @@
+body {
+  font-size: 16px;
+  color: #734b43;
+  background-color: #f2eded;
+  font-family: 'Libre Franklin', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f2eded;
+  border: 0;
+}
+
+#header-nav a:link, #header-nav a:visited {
+    text-decoration: none;
+    color: #734b43;
+}
+
+#header-nav a:hover, #header-nav a:active {
+    color: #c6221b;
+}
+
+#header-nav .container {
+    padding: 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+#header-nav .navbar-header {
+    margin: 0;
+    float: left;
+}
+
+#header-nav .navbar-brand {
+    width: 100%;
+    margin: 0;
+}
+
+.navbar-brand h1 { 
+  text-align: left;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  left: 0;
+  white-space: normal;
+}
+
+.navbar-header button.navbar-toggle {
+    border: 2px solid #734b43;
+    background-color: #f2eded;
+    color: #734b43;
+    font-size: 0.8em;
+    font-weight: 600;
+    clear: both;
+    margin-top: -30px;
+    position: absolute;
+    right: 0;
+}
+
+#header-nav .navbar-toggle:focus, #header-nav .navbar-toggle:hover {
+    border: 1px solid #f2eded;
+    background-color: #c6221b;
+    color: #f2eded;
+}
+
+.fa-bars {
+    padding-right: 5px;
+}
+
+#ig-button a:link, #ig-button a:visited {
+    color: #bc6d5d;
+}
+
+#ig-button .fa-instagram { 
+    text-align: right;
+    padding-bottom: 0;
+    position: absolute;
+    right: 0;
+}
+/* END HEADER */
+
+/*MAIN CONTENT*/
+#main-content {
+    min-height: 70vh;
+}
+#main-content .jumbotron {
+    background-image: url("../images/aimieitempi_1920x1080.gif");
+    background-color: #bc6d5d;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+#main-content h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+#main-content h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+#main-content p, #main-content ul {
+    font-weight: 100;
+    text-align: justify;
+    padding: 2vh 10vw;
+    line-height: 1.5;
+}
+
+#main-content ul {
+    margin-left: 20px;
+}
+
+#main-content .mail-space {
+    background-color: #7f4134;
+    color: #f2eded;
+    padding: 0 10vw;
+    position:relative;
+}
+
+#main-content .mail-space p {
+    text-align: left;
+    display: inline-block;
+    padding: 3vh 0;
+    margin: 0;
+    line-height: 1.2;
+}
+
+#main-content .mail-space .mail-button { 
+
+}
+
+#main-content .mail-space input:nth-child(1) {
+    display: inline-block;
+    width: 25vw;
+    background-color: #f2eded;
+    border: 0;
+    padding: 1.5% 4%;
+}
+
+#main-content .mail-space ::placeholder {
+    color: #7f4134;
+    font-size: 0.9em;
+}
+
+#main-content .mail-space input:nth-child(2) {
+    background-color: #c6221b;
+    display: inline-block;
+    padding: 1.5% 4%;
+    border: 0;
+}
+
+
+#id-contatti {
+    float: left;
+    width: 50%;
+    margin-top: 7vh;
+}
+
+#id-contatti h1 {
+    padding-left: 1vw;
+    text-align: left;
+}
+
+#id-contatti a:nth-child(2):link, #id-contatti a:nth-child(2):visited {
+    color: #bc6d5d;
+    font-size: 1.2em;
+}
+
+#id-contatti a:nth-child(2):hover, #id-contatti a:nth-child(2):active {
+    text-decoration: none;
+    color: #c6221b;
+    font-size: 1.4em; 
+}
+
+#id-contatti a:nth-child(4):link, #id-contatti a:nth-child(4):visited {
+    color: #bc6d5d;
+    font-size: 1.8em;
+}
+
+#id-contatti a:nth-child(4):hover, #id-contatti a:nth-child(4):active {
+    text-decoration: none;
+    color: #f2eded;
+    background-color: #c6221b;
+    border-radius: 10px 10px;
+    padding: 0px 6px;
+    font-size: 2.2em; 
+}
+
+#id-send-message {
+    float: right;
+    width: 50%;
+    margin-top: 7vh;
+}
+
+#id-send-message label {
+    display: inline-block;
+    width: 100%;
+    font-weight: normal;
+    padding-top: 3vh;
+}
+
+#id-send-message label p {
+    padding: 0;
+    display: inline;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#id-send-message label input {
+    border: 1px solid #734b43;
+    border-radius: 3px 4px;
+    width: 100%;
+    height: 3em;
+}
+
+#id-send-message label:nth-child(4) input {
+    height: 12em;
+}
+
+/*END MAIN CONTENT*/
+
+/*FOOTER*/
+#id-footer {
+    border: 0;
+    background-color: #f2eded;
+    font-weight: 700;
+}
+
+#id-footer .container {
+    position: relative;
+}
+
+#id-footer a:nth-child(1) {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 50%;
+}
+
+#id-footer a:nth-child(2) {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+#id-footer a:link, #id-footer a:visited {
+    text-decoration: none;
+    color: #bc6d5d;
+}
+
+#id-footer a:hover, #id-footer a:active {
+    opacity: 0.8;
+}
+
+/*END FOOTER*/
+
+/*--------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+
+/*uncollapsed menu (lg md sm)*/
+@media (min-width: 768px){
+    #menuBlock {
+        float:right;
+        padding: 0;
+        position: absolute;
+        bottom: 7vh;
+        right: 0;
+    }
+
+    #nav-list {
+        margin: 0;
+        width: 100%;
+    }
+
+    #nav-list li {
+        display: inline-block;
+    }
+
+    #nav-list a {
+      text-align: right;
+      font-size: 1.2em;
+      font-weight: 600;
+      padding: 0px;
+    }
+
+    #nav-list .mainIconBar a{
+        color: #c6221b;
+    }
+
+    #main-content p, #main-content ul {
+        font-size: 1.2em;
+    }
+
+    #main-content h1 {
+        font-size: 2.2em;
+    }
+
+    #main-content .mail-space p {
+        font-size: 1.8em;
+        width: 55%;
+    }
+
+    #main-content .mail-space .mail-button {
+        position: absolute;
+        left: 55%;
+        top: 50%;
+        width: 45%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*large, lg*/
+@media (min-width: 1100px) {
+
+    #header-nav .container {
+        height: 18vh;
+        width: 1000px;
+    }
+
+    #header-nav .navbar-header {
+        width: 37%;
+    }
+
+    .navbar-brand h1 {
+        bottom: 7vh;
+    }
+
+    #menuBlock {
+        width: 63%;
+        bottom: 7vh;
+        right: 0;
+    }
+
+    #nav-list li {
+        width: 16.66%;
+    }
+
+    #ig-button .fa-instagram {
+        bottom: 0;
+        padding-right: 8px;
+        font-size: 6vh;
+    }
+
+    #main-content .jumbotron {
+        height: 70vh;
+    }
+
+    #main-content .container {
+        width: 1000px;
+    }
+}
+
+/*medium md*/
+@media (min-width: 960px) and (max-width: 1099px) {
+
+    #header-nav .container {
+        height: 18vh;
+        width: 800px;
+    }
+
+    #header-nav .navbar-header {
+        width: 50%;
+    }
+
+    .navbar-brand h1 {
+        bottom: 7vh;
+    }
+
+    #menuBlock {
+        width: 41.5%;
+        bottom: 5vh;
+        right: 10vh;
+    }
+
+    #nav-list li {
+        width: 33.33%;
+        padding-top: 1vh;
+    }
+
+    #ig-button .fa-instagram {
+        bottom: 4vh;
+        padding-right: 0px;
+        font-size: 10vh;
+    }
+
+    #main-content .jumbotron {
+        height: 70vh;
+    }
+
+    #main-content .container {
+        width: 800px;
+    }
+}
+
+/*small sm*/
+@media (min-width: 768px) and (max-width: 959px) {
+     #header-nav .container {
+        height: 15vh;
+        width: 90vw;
+    }
+
+    #header-nav .navbar-header {
+        width: 55%;
+    }
+
+    .navbar-brand h1 {
+        top: 3vh;
+        text-align: center;
+        width: 55%;
+        padding: 0 5%;
+    }
+
+    #menuBlock {
+        width: 35.5%;
+        bottom: 2vh;
+        right: 10vh;
+    }
+
+    #nav-list li {
+        width: 50%;
+        padding-top: 1vh;
+        font-size: 0.9em;
+    }
+
+    #ig-button .fa-instagram {
+        bottom: 3vh;
+        padding-right: 0px;
+        font-size: 9vh;
+    }
+
+    #main-content .jumbotron {
+        height: 70vh;
+    }
+
+    #main-content .container {
+        width: 90vw;
+    }
+}
+
+/*extra small xs*/
+@media (min-width: 510px) and (max-width: 767px) {
+    #header-nav .container {
+        height: 15vh;
+        width: 90vw;
+    }
+
+    #header-nav .navbar-header {
+        width: 100%;
+    }
+
+    .navbar-brand h1 {
+        top: 3vh;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.8em;
+        width: 80%;
+        padding: 0 5%;
+    }
+
+    .navbar-header button.navbar-toggle {
+        margin: 0;
+        top: 3vh;
+        height: 2.6em;
+    }
+
+    #ig-button .fa-instagram {
+        top: 2.9vh;
+        right: 80px;
+        padding-right: 0px;
+        font-size: 2.2em;
+    }
+
+    #menuBlock {
+        margin-top: 15vh;
+    }
+
+    #nav-list li {
+        width: 30vw;
+        margin: 0 35vw;
+        text-align: center;
+        border-top: 1px solid #734b43;
+    }
+
+    #nav-list li:nth-child(1) {
+        border-top: 0;
+        padding-top: 5px;
+    }
+
+    #nav-list li:hover, #nav-list li:active {
+        font-weight: 700;
+        background-color: #c6221b42;
+    }
+
+    #main-content .jumbotron {
+        height: 55vh;
+    }
+
+    #main-content .container {
+        width: 90vw;
+    }
+    
+    #main-content .mail-space p {
+        font-size: 1.4em;
+        width: 100%;
+    }
+ 
+    #main-content h1 {
+        font-size: 1.8em;
+    }
+
+    #main-content .mail-space .mail-button {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+
+    #main-content .mail-space input:nth-child(1) {
+        display: inline-block;
+        width: 70%;
+    }
+}
+
+/*extra extra small xxs*/
+@media (max-width: 509px) {
+    #header-nav .container {
+        height: 15vh;
+        width: 90vw;
+    }
+
+    #header-nav .navbar-header {
+        width: 100%;
+    }
+
+    .navbar-brand h1 {
+        top: 6vh;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.6em;
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .navbar-header button.navbar-toggle {
+        margin: 0;
+        top: 1vh;
+        right: 40vw;
+        height: 2em;
+        padding: 1px 4px;
+    }
+
+    #ig-button .fa-instagram {
+        top: 0.9vh;
+        right: 30vw;
+        padding-right: 0px;
+        font-size: 1.8em;
+    }
+
+    #menuBlock {
+        margin-top: 15vh;
+    }
+
+    #nav-list li {
+        width: 40vw;
+        margin: 0 30vw;
+        text-align: center;
+        border-top: 1px solid #734b43;
+    }
+
+    #nav-list li:nth-child(1) {
+        border-top: 0;
+        padding-top: 5px;
+    }
+
+    #nav-list li:hover, #nav-list li:active {
+        font-weight: 700;
+        background-color: #c6221b42;
+    }
+
+    #main-content .jumbotron {
+        margin-top: 6vh;
+        height: 30vh;
+    }
+
+    #main-content .container {
+        width: 90vw;
+    }
+    
+    #main-content h1 {
+        font-size: 1.8em;
+    }
+
+    #main-content h2 {
+        padding: 7.5vw;
+    }
+
+    #main-content .mail-space p {
+        font-size: 1.4em;
+        width: 100%;
+    }
+
+    #main-content .mail-space .mail-button {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+
+    #main-content .mail-space input:nth-child(1) {
+        display: inline-block;
+        width: 70%;
+    }
+}
+
